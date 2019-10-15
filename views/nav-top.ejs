@@ -1,0 +1,26 @@
+<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a id="main-logo" href="#" class="navbar-brand">브랜드로고</a>
+    <input id="onuser" type="hidden" />
+    <input id="view" type="hidden" value="main">
+    <button class="btn btn-outline-light navbar-toggler" type="button" data-toggle="collapse" data-target="#inner-main-nav" aria-controls="inner-main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-ellipsis-h"></i>
+    </button>
+    <div id="inner-main-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="/write">리뷰작성</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#">내가 본 리뷰</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="/review">목록</a></li>
+        </ul>
+        <div class="btn-group" role="group">
+            <button id="btn-user" class="dropdown-toggle btn btn-outline-light" type="button" data-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-user"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="btn-user">
+                <a id="btn-login" href="#" class="dropdown-item">로그인</a>
+                <a id="btn-regist" href="#" class="dropdown-item">회원가입</a>
+                <a id="btn-logout" href="#" class="dropdown-item">로그아웃</a>
+                <a id="btn-myinfo" href="#" class="dropdown-item">내 정보</a>
+            </div>
+        </div>
+    </div>
+</nav>
